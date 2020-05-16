@@ -38,6 +38,15 @@
 
     <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
     <bool name="config_wifi_softap_acs_supported">true</bool>
+    
+    <!-- Height of the status bar -->
+     <dimen name="status_bar_height_portrait">24.0dip</dimen>
+     
+    <!-- Whether device has a notch -->	
+    <bool name="config_haveNotch">false</bool>
+    
+    <!-- Whether device has screen with higher aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
