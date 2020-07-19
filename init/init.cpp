@@ -73,3 +73,11 @@ void vendor_load_properties()
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", heapmaxfree);
 }
+
+void vendor_load_properties()
+{
+    // fingerprint
+    property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.9.0.QJWMIXM release-keys");
+    property_override("ro.treble.enabled", "false");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
+}
