@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?>
-<device name="Android">
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <device xmlns:android="http://schemas.android.com/apk/res/android" name="Android">
->>>>>>> 3572cce... sm6250-common: overlay: import power profile
     <item name="battery.capacity">5020</item>
     <array name="cpu.clusters.cores">
         <value>6</value>
