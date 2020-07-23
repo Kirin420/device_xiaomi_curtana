@@ -47,7 +47,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
-    
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
@@ -111,6 +111,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+#Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.2-service-qti
 
 # RCS
 PRODUCT_PACKAGES += \
