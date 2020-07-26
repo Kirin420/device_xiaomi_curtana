@@ -12,10 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from curtana device
 $(call inherit-product, device/xiaomi/curtana/device.mk)
 
+# Ancient
+IS_PHONE := true
+export ANCIENT_NOGAPPS=true
+
 # Inherit some common LineageOS stuff.
-CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
