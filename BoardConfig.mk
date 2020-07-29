@@ -163,6 +163,8 @@ BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 
+# neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # System properties
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
