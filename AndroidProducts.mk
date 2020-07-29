@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_curtana.mk
+    $(LOCAL_DIR)/cygnus_curtana.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_curtana-user \
-    du_curtana-userdebug \
-    du_curtana-eng
+    cygnus_curtana-user \
+    cygnus_curtana-userdebug \
+    cygnus_curtana-eng
