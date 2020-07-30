@@ -14,7 +14,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/sm6250-common/sm6250-common-vend
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, vendor/pixeldust/configs/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -143,7 +143,7 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
-#    telephony-ext
+    telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
